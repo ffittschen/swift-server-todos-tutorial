@@ -19,8 +19,8 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-log", from: "1.5.2"),
 
         // Database
-        .package(url: "https://github.com/vapor/fluent.git", from: "4.0.0"),
-        .package(url: "https://github.com/vapor/fluent-postgres-driver.git", from: "2.0.0"),
+        .package(url: "https://github.com/vapor/fluent", from: "4.0.0"),
+        .package(url: "https://github.com/vapor/fluent-postgres-driver", from: "2.0.0"),
     ],
     targets: [
         .executableTarget(
